@@ -1,20 +1,16 @@
-using System;
 using PlayFab.ClientModels;
 
 namespace Toranzo.Playfab
 {
-    public class LoginSuccessUseCase : IEventLoginSuccessReceiver
+    public class LoginSuccessUseCase : EventUseCaseReceiver<LoginResult>
     {
-        public Action<string> OnReceiveLoginMessage { get; set; }
-
-        public LoginSuccessUseCase(IEventDataReceiver<LoginResult> eventDataReceiver)
+        public LoginSuccessUseCase(IEventDataReceiver<LoginResult> eventDataReceiver) : base(eventDataReceiver)
         {
-            eventDataReceiver.OnReceiveEvent += ReceiveNewSuccessLogin;
         }
 
-        private void ReceiveNewSuccessLogin(LoginResult loginResult)
+        protected override string GetStringMessageFromResult(LoginResult typeResult)
         {
-            OnReceiveLoginMessage?.Invoke(loginResult.PlayFabId);
+            return typeResult.PlayFabId;
         }
     }
 }

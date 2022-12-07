@@ -3,11 +3,11 @@ using TMPro;
 
 namespace Toranzo.Playfab
 {
-    public class LoginSuccessInfoView : MonoBehaviour, ILoginSuccessView
+    public class ShowMessageReceiverView : MonoBehaviour, IShowNewMessageReceiver
     {
         [SerializeField] TMP_Text _textInfo;
 
-        public void ShowReceiveLoginSuccess(string messageToShow)
+        public void ShowMessageReceive(string messageToShow)
         {
             _textInfo.text += messageToShow;
         }

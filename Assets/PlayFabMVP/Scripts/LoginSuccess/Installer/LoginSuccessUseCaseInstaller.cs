@@ -3,11 +3,11 @@ using UnityEngine;
 
 namespace Toranzo.Playfab
 {
-    public class LoginSuccessUseCaseInstaller : MonoInstaller<IEventLoginSuccessReceiver>
+    public class LoginSuccessUseCaseInstaller : MonoInstaller<IEventMessageReceiver>
     {
         [SerializeField] private LoginSuccessEventReceiverSO _SOLoginSuccess;
 
-        protected override IEventLoginSuccessReceiver GetDataType()
+        protected override IEventMessageReceiver GetDataType()
         {
             return new LoginSuccessUseCase(_SOLoginSuccess);
         }
