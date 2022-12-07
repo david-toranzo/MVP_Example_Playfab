@@ -18,7 +18,7 @@ namespace Toranzo.Playfab
         {
             _userDataChecker.VerificateIsInitializedUserData();
 
-            _loginSuccessView.ShowReceiveLoginSuccess("New login success, id: " + messageReceive);
+            _loginSuccessView.ShowReceiveLoginSuccess("\nNew login success, id: " + messageReceive);
         }
     }
 }

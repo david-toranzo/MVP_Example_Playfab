@@ -27,7 +27,7 @@ namespace Toranzo.Playfab
         {
             Dictionary<string, UserDataRecord> userValues = dataResult.Data;
             bool resExist = userValues.ContainsKey(_userDataInitializedGetter.IdIsInitialized);
-
+            UnityEngine.Debug.Log(resExist);
             _initializedUser?.InvokeEvent(resExist);
         }
     }
