@@ -13,6 +13,9 @@ namespace Patterns.Factory
 
         public Type GetObjectType(KeyObject keyObject)
         {
+            if (keyObject == null)
+                return default;
+
             if(_factoryIds.ContainsKey(keyObject))
                 return _factoryIds[keyObject];
 
