@@ -9,7 +9,7 @@ namespace Toranzo.Playfab.Tests
         {
             ChainIOSDevice chainIOSDevice = new ChainIOSDevice(null);
 
-            Assert.IsFalse(chainIOSDevice.IsThisDeviceCorrectType());
+            Assert.IsFalse(chainIOSDevice.IsThisDeviceCorrectType(), "Chain IOS should be false in the editor.");
         }
 
         [Test]
@@ -17,7 +17,7 @@ namespace Toranzo.Playfab.Tests
         {
             ChainAndroidDevice chainAndroidDevice = new ChainAndroidDevice(null);
 
-            Assert.IsFalse(chainAndroidDevice.IsThisDeviceCorrectType());
+            Assert.IsFalse(chainAndroidDevice.IsThisDeviceCorrectType(), "Chain Android should be false in the editor.");
         }
 
         [Test]
@@ -25,7 +25,7 @@ namespace Toranzo.Playfab.Tests
         {
             ChainDefaultDevice chainDefaultDevice = new ChainDefaultDevice(null);
 
-            Assert.IsTrue(chainDefaultDevice.IsThisDeviceCorrectType());
+            Assert.IsTrue(chainDefaultDevice.IsThisDeviceCorrectType(), "Default Chain should be true in the editor.");
         }
     }
 }
