@@ -1,10 +1,9 @@
 {
-    "name": "Runtime.Login.Model",
+    "name": "Runtime.LoginSuccess.Presenter",
     "rootNamespace": "",
     "references": [
-        "GUID:0da6d172d18a54e4389d0dce1e1ffdf2",
-        "GUID:9e3fbd1fe6f163e41a96a79575fe3500",
-        "GUID:0fd8992b0c680d94b81ab51e6a1e38a8"
+        "GUID:0fd8992b0c680d94b81ab51e6a1e38a8",
+        "GUID:3b6a0792112177a46a50cfd0aa493b3e"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

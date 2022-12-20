@@ -1,10 +1,12 @@
 {
-    "name": "Runtime.Login.Model",
+    "name": "Runtime.RequestBase.Installer",
     "rootNamespace": "",
     "references": [
         "GUID:0da6d172d18a54e4389d0dce1e1ffdf2",
-        "GUID:9e3fbd1fe6f163e41a96a79575fe3500",
-        "GUID:0fd8992b0c680d94b81ab51e6a1e38a8"
+        "GUID:ae06fef4522272e4abb7918249e6dfc2",
+        "GUID:0fd8992b0c680d94b81ab51e6a1e38a8",
+        "GUID:109c135b1b5c829449c9e4e170ee986e",
+        "GUID:41f0108579deac043ad48ef383e6f2ea"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

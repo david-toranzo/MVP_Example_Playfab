@@ -5,7 +5,6 @@
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
         "Runtime.Login.Model",
-        "",
         "Runtime.Patterns"
     ],
     "includePlatforms": [
