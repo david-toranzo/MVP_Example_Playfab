@@ -6,7 +6,7 @@
         "UnityEditor.TestRunner",
         "Runtime.RequestBase.Model",
         "Runtime.RequestBase.Presenter",
-        "Tests.EditMode"
+        "Tests.LoginSuccess.EditMode"
     ],
     "includePlatforms": [
         "Editor"
