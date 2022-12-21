@@ -1,0 +1,16 @@
+{
+    "name": "Runtime.UserCheck.Presenter",
+    "rootNamespace": "",
+    "references": [
+        "GUID:3b6a0792112177a46a50cfd0aa493b3e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

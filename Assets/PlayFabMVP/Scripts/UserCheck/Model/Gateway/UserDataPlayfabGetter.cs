@@ -10,7 +10,8 @@ namespace Toranzo.Playfab
         private IEventDataReceiver<string> _failedEventUserData;
         private IUserDataInitializedGetter _userDataInitialized;
 
-        public UserDataPlayfabGetter(IEventDataReceiver<GetUserDataResult> successEventUserData, IEventDataReceiver<string> failedEventUserData, 
+        public UserDataPlayfabGetter(IEventDataReceiver<GetUserDataResult> successEventUserData, 
+                                    IEventDataReceiver<string> failedEventUserData, 
                                     IUserDataInitializedGetter userDataInitialized)
         {
             _successEventUserData = successEventUserData;

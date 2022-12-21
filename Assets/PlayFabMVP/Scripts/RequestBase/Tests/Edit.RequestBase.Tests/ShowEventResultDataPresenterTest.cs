@@ -6,7 +6,7 @@ namespace Toranzo.Playfab.Tests
     public class ShowEventResultDataPresenterTest
     {
         [Test]
-        public void ShowEventResultDataPresenterTestSimplePasses()
+        public void Event_InvokeEvent_CallMethodShowMessageReceive()
         {
             IShowNewMessageReceiver showNewMessageReceiver = Substitute.For<IShowNewMessageReceiver>();
             IEventMessageReceiver eventMessageReceiver = new LoginSuccessEventMessageReceiverTestClass();
