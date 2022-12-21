@@ -37,7 +37,6 @@ namespace Toranzo.Playfab
             _successEventUserData.InvokeEvent(userData);
         }
 
-
         private void RequestFailure(PlayFabError error)
         {
             _failedEventUserData.InvokeEvent(error.GenerateErrorReport());

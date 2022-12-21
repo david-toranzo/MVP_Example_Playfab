@@ -1,12 +1,12 @@
 {
-    "name": "Tests.LoginSuccess.EditMode",
+    "name": "Tests.RequestBase",
     "rootNamespace": "",
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
-        "Runtime.LoginSuccess.Presenter",
-        "Runtime.UserCheck.Model",
-        "Runtime.RequestBase.Model"
+        "Runtime.RequestBase.Model",
+        "Runtime.RequestBase.Presenter",
+        "Tests.EditMode"
     ],
     "includePlatforms": [
         "Editor"
